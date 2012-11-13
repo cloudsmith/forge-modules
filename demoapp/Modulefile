@@ -1,10 +1,10 @@
 name 'cloudsmith-demoapp'
-version '0.1.4'
+version '0.1.5'
 
 author 'hlindberg'
 license ''
 project_page ''
 source ''
-summary ''
+summary 'A Demo application'
 description ''
 dependency 'cloudsmith/demoplatform', '==0.1.4'
