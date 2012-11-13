@@ -5,6 +5,6 @@ class demoapp::default {
   demoplatform::instance { 'fordemoapp':
     # NOTE: demo-error - location is not a parameter of demoplatform
     # (it should be instance_location)
-    location => '/var-www/demoapp' 
+    instance_location => '/var-www/demoapp' 
   }
 }
