@@ -1,0 +1,13 @@
+---
+language: java
+notifications:
+  email:
+    on_success: always
+script:
+- git clone -q git://github.com/cloudsmith/ghpublisher.git .forge-releng
+- .forge-releng/publish
+env:
+  global:
+  - PUBLISHER_LOGIN=cloudsmith
+  - secure: "mB4LdpYwcbADGi2VUDeUgCL94/sworcgLiMEAkhUG2DR+ZpNxOTFwEQXlseO\nWe9w+gtExvh99te3ErWGWnKAG0JcAikBoE9TBM4M1m7g8KXuIcBrWmuhenax\nxbX5bZd4o3/FEGB+zw++Oi7Azfi+xW+ATYqf/AUcZF+e5D98zI4="
+
